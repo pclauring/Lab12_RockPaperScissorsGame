@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace Lab12_Roshambo_Game
 {
-    class Program
+    enum Roshambo
     {
-        static void Main(string[] args)
-        {
-        }
-    }
+        Rock, Paper, Scissors
+    };
 }

@@ -42,8 +42,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="RandomRoshamboPlayer.cs" />
+    <Compile Include="RockPlayer.cs" />
+    <Compile Include="Player.cs" />
+    <Compile Include="Roshambo.cs" />
+    <Compile Include="RoshamboApp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserPlayer.cs" />
+    <Compile Include="Validator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
